@@ -7,4 +7,7 @@ env.php
 *.scss.map
 
 # SCSS
-reset.min.css
+reset.css
+component.css
+phone.css
+desktop.css

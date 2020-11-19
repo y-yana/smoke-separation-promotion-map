@@ -5,3 +5,10 @@
     <title><?php echo $title ?></title>
   </head>
   <body>
+
+  <?php
+
+  // DB接続
+  require('./env.php');
+
+  ?>
