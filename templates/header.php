@@ -14,3 +14,5 @@
   <header>
     <h1>分煙促進マップ</h1>
   </header>
+
+  <div id="myMap" style="width:600px;height:500px"></div>
