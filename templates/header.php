@@ -7,8 +7,10 @@
   <body>
 
   <?php
-
   // DB接続
   require('./env.php');
-
   ?>
+
+  <header>
+    <h1>分煙促進マップ</h1>
+  </header>
