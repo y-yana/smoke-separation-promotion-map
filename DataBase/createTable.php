@@ -4,7 +4,9 @@
   require('../templates/env');
 
   // sql文を格納
-  $sql='';
+  $sql='CREATE TABLE smokingMap(
+    
+  )';
 
   // sql文を実行
   $results=$mysqli->query($sql);
