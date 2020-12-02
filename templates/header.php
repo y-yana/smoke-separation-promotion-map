@@ -13,6 +13,7 @@
 
   <header>
     <h1>分煙促進マップ</h1>
+    <p>分煙で煙活に。</p>
   </header>
 
   <div id="myMap" style="width:600px;height:500px"></div>
