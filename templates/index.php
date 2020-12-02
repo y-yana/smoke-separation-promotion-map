@@ -1,10 +1,8 @@
 <?php $title = 'TopPage'; ?>
 <?php include('./header.php'); ?>
-<!-- ここにbodyの中身を記述 -->
-<script src="../static/js/GoogleMap.js"></script>
+
 <!-- 検索エリア -->
 <form>
-  <!-- 検索内容 -->
   <div>
     <span>
       <label><input type="checkbox" name="roof">屋根</label>
@@ -69,4 +67,7 @@
     </span>
   </div>
 </form>
+
+<script src="../static/js/GoogleMap.js"></script>
+
 <?php include('./footer.php'); ?>
