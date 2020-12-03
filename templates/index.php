@@ -2,9 +2,9 @@
 <?php include('./header.php'); ?>
 
   <div class="searchArea">
-    <button onclick="location.href='./review.php'">喫煙所を登録する</button>
+    <button class="pageMoveBtn" onclick="location.href='./review.php'">喫煙所を登録する</button>
     <form>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">屋根</label>
         </span>
@@ -13,7 +13,7 @@
           <label><input type="radio" name="roof" id="radioBtn20" value="1" disabled>なし</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">ベンチ</label>
         </span>
@@ -22,7 +22,7 @@
           <label><input type="radio" name="bench" id="radioBtn21" value="1" disabled>なし</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">囲い</label>
         </span>
@@ -31,7 +31,7 @@
           <label><input type="radio" name="enclosure" id="radioBtn22" value="1" disabled>なし</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">タバコの自販機</label>
         </span>
@@ -40,7 +40,7 @@
           <label><input type="radio" name="cigaretteVendingMachine" id="radioBtn23" value="1" disabled>なし</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">飲料の自販機</label>
         </span>
@@ -49,7 +49,7 @@
           <label><input type="radio" name="vendingMachine" id="radioBtn24" value="1" disabled>なし</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">利用できるタバコ</label>
         </span>
@@ -58,7 +58,7 @@
           <label><input type="radio" name="electronicCigarette" id="radioBtn25" value="1" disabled>電子タバコのみ</label>
         </span>
       </div>
-      <div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">設置場所</label>
         </span>
