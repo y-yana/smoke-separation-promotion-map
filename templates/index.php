@@ -1,6 +1,8 @@
 <?php $title = 'TopPage'; ?>
 <?php include('./header.php'); ?>
 
+<button onclick="location.href='./review.php'">喫煙所を登録する</button>
+
 <form>
   <div>
     <span>
