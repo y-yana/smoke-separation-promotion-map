@@ -1,1 +1,18 @@
 /* スマホ版デザイン */
+
+header{
+  span{
+    h1{
+      font-size: 3.5rem;
+      margin: 3rem 5rem 3rem 0;
+    }
+    p{
+      font-size: 2rem;
+    }
+  }
+}
+
+#myMap{
+  width: auto;
+  height: 1000px;
+}

@@ -1,3 +1,21 @@
 /* PC版デザイン */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
+
+header{
+  span{
+    h1{
+      font-size: 2.3rem;
+      margin: 2.3rem 5rem 2.3rem 0;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+#myMap{
+  width: 65%;
+  height: 750px;
+}
+
 }
