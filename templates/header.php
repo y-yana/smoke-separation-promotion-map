@@ -13,8 +13,10 @@
   ?>
 
   <header>
-    <h1>分煙促進マップ</h1>
-    <p>分煙で煙活に。</p>
+    <span>
+      <h1>分煙促進マップ</h1>
+      <p>分煙で煙活に。</p>
+    </span>
   </header>
 
   <div id="myMap"></div>
