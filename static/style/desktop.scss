@@ -13,9 +13,12 @@ header{
   }
 }
 
-#myMap{
-  width: 65%;
-  height: 750px;
+.displayMap{
+  flex-direction: row;
+  #myMap{
+    width: 65%;
+    height: 750px;
+  }
 }
 
 }

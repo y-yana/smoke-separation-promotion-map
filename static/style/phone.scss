@@ -12,7 +12,10 @@ header{
   }
 }
 
-#myMap{
-  width: auto;
-  height: 1000px;
+.displayMap{
+  flex-direction: column;
+  #myMap{
+    width: auto;
+    height: 1000px;
+  }
 }
