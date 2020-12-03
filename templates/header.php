@@ -19,4 +19,5 @@
     </span>
   </header>
 
-  <div id="myMap"></div>
+  <div class="displayMap">
+    <div id="myMap"></div>
