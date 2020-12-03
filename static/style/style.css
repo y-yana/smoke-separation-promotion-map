@@ -510,6 +510,22 @@ header span p {
   display: flex;
 }
 
+.displayMap .searchArea {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.displayMap .searchArea .pageMoveBtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+}
+
 /* スマホ版デザイン */
 header span h1 {
   font-size: 3.5rem;
@@ -529,7 +545,15 @@ header span p {
 
 .displayMap #myMap {
   width: auto;
-  height: 1000px;
+  height: 1300px;
+}
+
+.displayMap .searchArea {
+  margin: 0;
+}
+
+.displayMap .searchArea .pageMoveBtn {
+  margin: 0;
 }
 
 /* PC版デザイン */
@@ -548,7 +572,16 @@ header span p {
             flex-direction: row;
   }
   .displayMap #myMap {
-    width: 65%;
+    width: 70%;
     height: 750px;
+  }
+  .displayMap .searchArea {
+    margin: 0 auto;
+  }
+  .displayMap .searchArea .pageMoveBtn {
+    margin: 2rem auto;
+  }
+  .displayMap .searchArea form .searchRow {
+    margin: 1rem 0;
   }
 }

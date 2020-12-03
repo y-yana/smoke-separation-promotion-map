@@ -16,6 +16,12 @@ header{
   flex-direction: column;
   #myMap{
     width: auto;
-    height: 1000px;
+    height: 1300px;
+  }
+  .searchArea{
+    margin: 0;
+    .pageMoveBtn{
+      margin: 0;
+    }
   }
 }

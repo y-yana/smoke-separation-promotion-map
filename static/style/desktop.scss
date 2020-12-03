@@ -16,8 +16,19 @@ header{
 .displayMap{
   flex-direction: row;
   #myMap{
-    width: 65%;
+    width: 70%;
     height: 750px;
+  }
+  .searchArea{
+    margin: 0 auto;
+    .pageMoveBtn{
+      margin: 2rem auto;
+    }
+    form{
+      .searchRow{
+        margin: 1rem 0;
+      }
+    }
   }
 }
 

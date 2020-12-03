@@ -17,4 +17,12 @@ header{
 
 .displayMap{
   display: flex;
+  .searchArea{
+    width: fit-content;
+    height: fit-content;
+    .pageMoveBtn{
+      width: fit-content;
+      display: block;
+    }
+  }
 }
