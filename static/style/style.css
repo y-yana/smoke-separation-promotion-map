@@ -584,4 +584,10 @@ header span p {
   .displayMap .searchArea form .searchRow {
     margin: 1rem 0;
   }
+  .displayMap .searchArea form .searchRow span label input {
+    margin-right: 0.5rem;
+  }
+  .displayMap .searchArea form .searchRow span label .searchRadio {
+    margin: 0 0.3rem 0 0.6rem;
+  }
 }
