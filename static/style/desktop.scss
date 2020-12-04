@@ -1,3 +1,45 @@
 /* PC版デザイン */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
+
+header{
+  span{
+    h1{
+      font-size: 2.3rem;
+      margin: 2.3rem 5rem 2.3rem 0;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.displayMap{
+  flex-direction: row;
+  #myMap{
+    width: 70%;
+    height: 750px;
+  }
+  .searchArea{
+    margin: 0 auto;
+    .pageMoveBtn{
+      margin: 2rem auto;
+    }
+    form{
+      .searchRow{
+        margin: 1rem 0;
+        span{
+          label{
+            input{
+              margin-right: 0.5rem;
+            }
+            .searchRadio{
+              margin: 0 0.3rem 0 0.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 }

@@ -1,1 +1,27 @@
 /* スマホ版デザイン */
+
+header{
+  span{
+    h1{
+      font-size: 3.5rem;
+      margin: 3rem 5rem 3rem 0;
+    }
+    p{
+      font-size: 2rem;
+    }
+  }
+}
+
+.displayMap{
+  flex-direction: column;
+  #myMap{
+    width: auto;
+    height: 1300px;
+  }
+  .searchArea{
+    margin: 0;
+    .pageMoveBtn{
+      margin: 0;
+    }
+  }
+}

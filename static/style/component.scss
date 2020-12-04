@@ -1,1 +1,28 @@
 /* 全体の共通部分 */
+
+header{
+  span{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    h1{
+      width: fit-content;
+    }
+    p{
+      width: fit-content;
+    }
+  }
+}
+
+.displayMap{
+  display: flex;
+  .searchArea{
+    width: fit-content;
+    height: fit-content;
+    .pageMoveBtn{
+      width: fit-content;
+      display: block;
+    }
+  }
+}
