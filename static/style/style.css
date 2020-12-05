@@ -365,7 +365,7 @@ header span h1 {
 }
 
 header span p {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .displayMap {
@@ -381,11 +381,26 @@ header span p {
 }
 
 .displayMap .searchArea {
-  margin: 0;
+  margin: 2rem auto;
+  font-size: 2.5rem;
 }
 
 .displayMap .searchArea .pageMoveBtn {
-  margin: 0;
+  margin: 2rem auto 4rem;
+}
+
+.displayMap .searchArea form .searchRow {
+  margin: 2rem 0;
+}
+
+.displayMap .searchArea form .searchRow span label input {
+  margin-right: 1.5rem;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
+.displayMap .searchArea form .searchRow span label .searchRadio {
+  margin: 0 1rem 0 2rem;
 }
 
 /* PC版デザイン */
@@ -409,6 +424,7 @@ header span p {
   }
   .displayMap .searchArea {
     margin: 0 auto;
+    font-size: 1rem;
   }
   .displayMap .searchArea .pageMoveBtn {
     margin: 2rem auto;
@@ -421,6 +437,8 @@ header span p {
   }
   .displayMap .searchArea form .searchRow span label input {
     margin-right: 0.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .displayMap .searchArea form .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
