@@ -310,6 +310,10 @@ template {
 }
 
 /* 全体の共通部分 */
+body {
+  background-color: #f5f5f5;
+}
+
 header span {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,6 +332,9 @@ header span h1 {
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
+  color: #010101;
+  background: #eaf3ff;
+  border-bottom: solid 3px #516ab6;
 }
 
 header span #tagline {
@@ -359,6 +366,7 @@ header span #tagline i {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background-color: #ffffff;
 }
 
 .displayMap .searchArea .pageMoveBtn {
@@ -366,7 +374,18 @@ header span #tagline i {
   width: -moz-fit-content;
   width: fit-content;
   display: block;
+  padding: 0.5rem 1rem;
+  background: #516ab6;
+  color: #FFF;
+  border-bottom: solid 4px #9ba3bb;
+  border-radius: 3px;
   cursor: pointer;
+}
+
+.displayMap .searchArea .pageMoveBtn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  border-bottom: none;
 }
 
 footer {
