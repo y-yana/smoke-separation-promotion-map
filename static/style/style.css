@@ -385,12 +385,12 @@ footer .footerClass .footerName a {
 
 /* スマホ版デザイン */
 header span h1 {
-  font-size: 3.5rem;
-  margin: 3rem 5rem 3rem 0;
+  font-size: 1.5rem;
+  margin: 2rem 1rem 2rem 0;
 }
 
 header span p {
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 .displayMap {
@@ -402,30 +402,28 @@ header span p {
 
 .displayMap #myMap {
   width: auto;
-  height: 1300px;
+  height: 530px;
 }
 
 .displayMap .searchArea {
-  margin: 2rem auto;
-  font-size: 2.5rem;
+  margin: 1rem auto;
+  font-size: 1rem;
 }
 
 .displayMap .searchArea .pageMoveBtn {
-  margin: 2rem auto 4rem;
+  margin: 1.5rem auto;
 }
 
 .displayMap .searchArea form .searchRow {
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .displayMap .searchArea form .searchRow span label input {
-  margin-right: 1.5rem;
-  -webkit-transform: scale(2.5);
-          transform: scale(2.5);
+  margin-right: 0.5rem;
 }
 
 .displayMap .searchArea form .searchRow span label .searchRadio {
-  margin: 0 1rem 0 2rem;
+  margin: 0 0.3rem 0 1rem;
 }
 
 footer .footerClass {
@@ -433,11 +431,11 @@ footer .footerClass {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2.5rem auto 8rem;
+  margin: 2rem auto 3rem;
 }
 
 footer .footerClass a {
-  font-size: 2.5rem;
+  font-size: 1rem;
   margin: 1rem auto;
 }
 
@@ -475,8 +473,6 @@ footer .footerClass a {
   }
   .displayMap .searchArea form .searchRow span label input {
     margin-right: 0.5rem;
-    -webkit-transform: scale(1);
-            transform: scale(1);
   }
   .displayMap .searchArea form .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
