@@ -10,8 +10,14 @@ header{
       width: fit-content;
       cursor: pointer;
     }
-    p{
+    #tagline{
+      align-items: baseline;
+      p{
       width: fit-content;
+      }
+      i{
+        cursor: pointer;
+      }
     }
   }
 }

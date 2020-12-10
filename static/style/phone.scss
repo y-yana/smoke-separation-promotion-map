@@ -2,12 +2,19 @@
 
 header{
   span{
+    align-items: baseline;
     h1{
       font-size: 1.5rem;
       margin: 2rem 1rem 2rem 0;
     }
-    p{
+    #tagline{
+      p{
       font-size: 1rem;
+      margin-right: 0;
+      }
+      i{
+        transform: scale(0.8);
+      }
     }
   }
 }

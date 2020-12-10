@@ -330,10 +330,20 @@ header span h1 {
   cursor: pointer;
 }
 
-header span p {
+header span #tagline {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+header span #tagline p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+header span #tagline i {
+  cursor: pointer;
 }
 
 .displayMap {
@@ -384,13 +394,25 @@ footer .footerClass .footerName a {
 }
 
 /* スマホ版デザイン */
+header span {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 header span h1 {
   font-size: 1.5rem;
   margin: 2rem 1rem 2rem 0;
 }
 
-header span p {
+header span #tagline p {
   font-size: 1rem;
+  margin-right: 0;
+}
+
+header span #tagline i {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 .displayMap {
@@ -445,8 +467,13 @@ footer .footerClass a {
     font-size: 2.3rem;
     margin: 2.3rem 5rem 2.3rem 0;
   }
-  header span p {
+  header span #tagline p {
     font-size: 1.5rem;
+    margin-right: 0.3rem;
+  }
+  header span #tagline i {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .displayMap {
     -webkit-box-orient: horizontal;
