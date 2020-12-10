@@ -14,7 +14,7 @@
 
   <header>
     <span>
-      <h1>分煙促進マップ</h1>
+      <h1 onclick="location.href='./index.php'">分煙促進マップ</h1>
       <p>分煙で煙活に。</p>
     </span>
   </header>
