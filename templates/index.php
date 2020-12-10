@@ -67,6 +67,7 @@
           <label><input type="radio" name="indoors" id="radioBtn26" class="searchRadio" value="1" disabled>屋内</label>
         </span>
       </div>
+      <button class="pageMoveBtn" type="submit">検索</button>
     </form>
   </div>
 </div>

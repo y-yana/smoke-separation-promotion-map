@@ -327,6 +327,7 @@ header span h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  cursor: pointer;
 }
 
 header span p {
@@ -355,6 +356,31 @@ header span p {
   width: -moz-fit-content;
   width: fit-content;
   display: block;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .footerClass {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2.5rem auto;
+}
+
+footer .footerClass a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer .footerClass .footerName a {
+  margin: 0 0.5rem;
 }
 
 /* スマホ版デザイン */
@@ -364,7 +390,7 @@ header span h1 {
 }
 
 header span p {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .displayMap {
@@ -380,11 +406,39 @@ header span p {
 }
 
 .displayMap .searchArea {
-  margin: 0;
+  margin: 2rem auto;
+  font-size: 2.5rem;
 }
 
 .displayMap .searchArea .pageMoveBtn {
-  margin: 0;
+  margin: 2rem auto 4rem;
+}
+
+.displayMap .searchArea form .searchRow {
+  margin: 4rem 0;
+}
+
+.displayMap .searchArea form .searchRow span label input {
+  margin-right: 1.5rem;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
+.displayMap .searchArea form .searchRow span label .searchRadio {
+  margin: 0 1rem 0 2rem;
+}
+
+footer .footerClass {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2.5rem auto 8rem;
+}
+
+footer .footerClass a {
+  font-size: 2.5rem;
+  margin: 1rem auto;
 }
 
 /* PC版デザイン */
@@ -408,6 +462,7 @@ header span p {
   }
   .displayMap .searchArea {
     margin: 0 auto;
+    font-size: 1rem;
   }
   .displayMap .searchArea .pageMoveBtn {
     margin: 2rem auto;
@@ -415,10 +470,26 @@ header span p {
   .displayMap .searchArea form .searchRow {
     margin: 1rem 0;
   }
+  .displayMap .searchArea form .searchRow span label {
+    cursor: pointer;
+  }
   .displayMap .searchArea form .searchRow span label input {
     margin-right: 0.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .displayMap .searchArea form .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
+  }
+  footer .footerClass {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 2.5rem auto;
+  }
+  footer .footerClass a {
+    font-size: 1rem;
+    margin: 0 0.5rem;
   }
 }

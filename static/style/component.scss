@@ -8,6 +8,7 @@ header{
     margin: 0 auto;
     h1{
       width: fit-content;
+      cursor: pointer;
     }
     p{
       width: fit-content;
@@ -23,6 +24,24 @@ header{
     .pageMoveBtn{
       width: fit-content;
       display: block;
+      cursor: pointer;
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  .footerClass{
+    width: fit-content;
+    display: flex;
+    margin: 2.5rem auto;
+    a{
+    width: fit-content;
+    }
+    .footerName{
+      a{
+        margin: 0 0.5rem;
+      }
     }
   }
 }
