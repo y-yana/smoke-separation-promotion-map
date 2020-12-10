@@ -27,3 +27,20 @@ header{
     }
   }
 }
+
+footer{
+  width: 100%;
+  .footerClass{
+    width: fit-content;
+    display: flex;
+    margin: 2.5rem auto;
+    a{
+    width: fit-content;
+    }
+    .footerName{
+      a{
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}

@@ -45,4 +45,15 @@ header{
   }
 }
 
+footer{
+  .footerClass{
+    flex-direction: row;
+    margin: 2.5rem auto;
+    a{
+      font-size: 1rem;
+      margin: 0 0.5rem;
+    }
+  }
+}
+
 }
