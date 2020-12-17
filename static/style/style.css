@@ -369,6 +369,10 @@ header span #tagline i {
   background-color: #ffffff;
 }
 
+.displayMap .searchArea form {
+  padding: 0rem 1rem;
+}
+
 .displayMap .searchArea .pageMoveBtn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
