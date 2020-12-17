@@ -311,10 +311,6 @@ template {
 
 /* 変数宣言 */
 /* 全体の共通部分 */
-body {
-  background-color: #f5f5f5;
-}
-
 header {
   background: #eaf3ff;
 }
@@ -384,15 +380,16 @@ header span #tagline i {
   padding: 0.5rem 1rem;
   background: #516ab6;
   color: #FFF;
-  border-bottom: solid 4px #9ba3bb;
   border-radius: 3px;
   cursor: pointer;
+  /*&:active{
+        transform: translateY(4px);
+        border-bottom: none;
+      }*/
 }
 
-.displayMap .searchArea .pageMoveBtn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
-  border-bottom: none;
+.displayMap .searchArea .pageMoveBtn:hover {
+  background: #6985d8;
 }
 
 footer {

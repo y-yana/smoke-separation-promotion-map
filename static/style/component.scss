@@ -1,12 +1,7 @@
 /* 変数宣言 */
 $header-color: #eaf3ff;
-$bg-color: #f5f5f5;
-
+$btn-hover: #6985d8;
 /* 全体の共通部分 */
-body{
-  background-color: $bg-color;
-}
-
 header{
   background: $header-color;
   span{
@@ -46,12 +41,10 @@ header{
       padding: 0.5rem 1rem;
       background: #516ab6;
       color: #FFF;
-      border-bottom: solid 4px #9ba3bb;
       border-radius: 3px;
       cursor: pointer;
-      &:active{
-        transform: translateY(4px);
-        border-bottom: none;
+      &:hover{
+        background: $btn-hover;
       }
     }
   }
