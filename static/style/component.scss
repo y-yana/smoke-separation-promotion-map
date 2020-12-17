@@ -1,6 +1,9 @@
 /* 変数宣言 */
 $header-color: #eaf3ff;
+$btn-color: #516ab6;
 $btn-hover: #6985d8;
+$bg-color: #ffffff;
+
 /* 全体の共通部分 */
 header{
   background: $header-color;
@@ -12,7 +15,6 @@ header{
     h1{
       width: fit-content;
       cursor: pointer;
-      color: #010101;
     }
     #tagline{
       align-items: baseline;
@@ -31,7 +33,7 @@ header{
   .searchArea{
     width: fit-content;
     height: fit-content;
-    background-color: #ffffff;
+    background-color: $bg-color;
     form{
       padding: 0rem 2rem;
     }
@@ -39,8 +41,8 @@ header{
       width: fit-content;
       display: block;
       padding: 0.5rem 1rem;
-      background: #516ab6;
-      color: #FFF;
+      background: $btn-color;
+      color: $bg-color;
       border-radius: 3px;
       cursor: pointer;
       &:hover{
