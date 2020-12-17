@@ -309,9 +309,14 @@ template {
   display: none;
 }
 
+/* 変数宣言 */
 /* 全体の共通部分 */
 body {
   background-color: #f5f5f5;
+}
+
+header {
+  background: #eaf3ff;
 }
 
 header span {
@@ -333,8 +338,6 @@ header span h1 {
   width: fit-content;
   cursor: pointer;
   color: #010101;
-  background: #eaf3ff;
-  border-bottom: solid 3px #516ab6;
 }
 
 header span #tagline {
@@ -370,7 +373,7 @@ header span #tagline i {
 }
 
 .displayMap .searchArea form {
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
 }
 
 .displayMap .searchArea .pageMoveBtn {
@@ -394,6 +397,7 @@ header span #tagline i {
 
 footer {
   width: 100%;
+  background: #eaf3ff;
 }
 
 footer .footerClass {
@@ -439,6 +443,7 @@ header span #tagline i {
 }
 
 .displayMap {
+  height: 1000px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -451,7 +456,7 @@ header span #tagline i {
 }
 
 .displayMap .searchArea {
-  margin: 1rem auto;
+  margin: 0;
   font-size: 1rem;
 }
 
@@ -471,12 +476,16 @@ header span #tagline i {
   margin: 0 0.3rem 0 1rem;
 }
 
+footer {
+  padding: 1rem 0 1.5rem;
+}
+
 footer .footerClass {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2rem auto 3rem;
+  margin: 0 auto;
 }
 
 footer .footerClass a {
@@ -499,6 +508,7 @@ footer .footerClass a {
             transform: scale(1);
   }
   .displayMap {
+    height: 750px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -506,10 +516,12 @@ footer .footerClass a {
   }
   .displayMap #myMap {
     width: 70%;
-    height: 750px;
+    height: 100%;
   }
   .displayMap .searchArea {
-    margin: 0 auto;
+    width: 30%;
+    height: 100%;
+    margin: 0;
     font-size: 1rem;
   }
   .displayMap .searchArea .pageMoveBtn {
@@ -527,12 +539,15 @@ footer .footerClass a {
   .displayMap .searchArea form .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
   }
+  footer {
+    padding: 2rem 0;
+  }
   footer .footerClass {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 2.5rem auto;
+    margin: 0 auto;
   }
   footer .footerClass a {
     font-size: 1rem;

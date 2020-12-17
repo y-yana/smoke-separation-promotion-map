@@ -20,13 +20,14 @@ header{
 }
 
 .displayMap{
+  height: 1000px;
   flex-direction: column;
   #myMap{
     width: auto;
     height: 530px;
   }
   .searchArea{
-    margin: 1rem auto;
+    margin: 0;
     font-size: 1rem;
     .pageMoveBtn{
       margin: 1.5rem auto;
@@ -50,9 +51,10 @@ header{
 }
 
 footer{
+  padding: 1rem 0 1.5rem;
   .footerClass{
     flex-direction: column;
-    margin: 2rem auto 3rem;
+    margin: 0 auto;
     a{
       font-size: 1rem;
       margin: 1rem auto;
