@@ -1,6 +1,12 @@
-/* 全体の共通部分 */
+/* 変数宣言 */
+$header-color: #eaf3ff;
+$btn-color: #516ab6;
+$btn-hover: #6985d8;
+$bg-color: #ffffff;
 
+/* 全体の共通部分 */
 header{
+  background: $header-color;
   span{
     display: flex;
     align-items: center;
@@ -10,8 +16,14 @@ header{
       width: fit-content;
       cursor: pointer;
     }
-    p{
+    #tagline{
+      align-items: baseline;
+      p{
       width: fit-content;
+      }
+      i{
+        cursor: pointer;
+      }
     }
   }
 }
@@ -21,16 +33,29 @@ header{
   .searchArea{
     width: fit-content;
     height: fit-content;
+    background-color: $bg-color;
+    form{
+      width: fit-content;
+      margin: 0 auto;
+    }
     .pageMoveBtn{
       width: fit-content;
       display: block;
+      padding: 0.5rem 1rem;
+      background: $btn-color;
+      color: $bg-color;
+      border-radius: 3px;
       cursor: pointer;
+      &:hover{
+        background: $btn-hover;
+      }
     }
   }
 }
 
 footer{
   width: 100%;
+  background: $header-color;
   .footerClass{
     width: fit-content;
     display: flex;
