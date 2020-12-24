@@ -19,5 +19,7 @@ window.onload = function () {
   google.maps.event.addListener(marker, 'dragend', function (ev) {
     // ev.latLng.lat();  緯度
     // ev.latLng.lng();  経度
+    console.log('lat' + ev.latLng.lat());
+    console.log('lng' + ev.latLng.lng());
   })
 };
