@@ -2,7 +2,7 @@
 <?php include('./header.php'); ?>
 
   <div class="searchArea">
-    <button class="pageMoveBtn" onclick="location.href='./review.php'">喫煙所を登録する</button>
+    <button class="pageMoveBtn" onclick="location.href='./review.php'">喫煙所の登録はこちら</button>
     <form>
       <div class="searchRow">
         <span>
