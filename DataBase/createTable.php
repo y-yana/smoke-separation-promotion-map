@@ -11,13 +11,13 @@
     lng DOUBLE(9,6),
     startTime VARCHAR(4),
     endTime VARCHAR(4),
-    roof ENUM("Y","N"),
-    bench ENUM("Y","N"),
-    enclosure ENUM("Y","N"),
-    cigaretteSale ENUM("Y","N"),
-    drinkSale ENUM("Y","N"),
-    cigarette ENUM("all","electronic"),
-    outdoor ENUM("outdoor","indoor"),
+    roof ENUM("Y","N","unknown"),
+    bench ENUM("Y","N","unknown"),
+    enclosure ENUM("Y","N","unknown"),
+    cigaretteSale ENUM("Y","N","unknown"),
+    drinkSale ENUM("Y","N","unknown"),
+    cigarette ENUM("all","electronic","unknown"),
+    outdoor ENUM("outdoor","indoor","unknown"),
     message VARCHAR(500)
   )';
 
