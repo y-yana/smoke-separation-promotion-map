@@ -18,6 +18,7 @@
       <div class="searchRow">
         <p>利用可能時間</p>
         <select name="startTime">
+          <option value="----">--：--</option>
           <option value="0000">00:00</option>
           <option value="0100">01:00</option>
           <option value="0200">02:00</option>
@@ -45,6 +46,7 @@
         </select>
         <span>～</span>
         <select name="endTime">
+          <option value="----">--：--</option>
           <option value="0000">00:00</option>
           <option value="0100">01:00</option>
           <option value="0200">02:00</option>
