@@ -2,7 +2,7 @@
 <?php include('./header.php'); ?>
 
 <div class="searchArea">
-    <form action="addData.php" method="post">
+    <form action="addData.php" method="post" name="addData">
       <div class="searchRow">
         <p>喫煙所の名前</p>
         <input type="text" name="placeName">
@@ -78,6 +78,7 @@
         <span>
           <label><input type="radio" name="roof" id="radioBtn10" class="searchRadio" value="Y" disabled>あり</label>
           <label><input type="radio" name="roof" id="radioBtn20" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="roof" id="radioBtn30" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -87,6 +88,7 @@
         <span>
           <label><input type="radio" name="bench" id="radioBtn11" class="searchRadio" value="Y" disabled>あり</label>
           <label><input type="radio" name="bench" id="radioBtn21" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="bench" id="radioBtn31" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -96,6 +98,7 @@
         <span>
           <label><input type="radio" name="enclosure" id="radioBtn12" class="searchRadio" value="Y" disabled>あり</label>
           <label><input type="radio" name="enclosure" id="radioBtn22" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="enclosure" id="radioBtn32" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -105,6 +108,7 @@
         <span>
           <label><input type="radio" name="cigaretteSale" id="radioBtn13" class="searchRadio" value="Y" disabled>あり</label>
           <label><input type="radio" name="cigaretteSale" id="radioBtn23" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="cigaretteSale" id="radioBtn33" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -114,6 +118,7 @@
         <span>
           <label><input type="radio" name="drinkSale" id="radioBtn14" class="searchRadio" value="Y" disabled>あり</label>
           <label><input type="radio" name="drinkSale" id="radioBtn24" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="drinkSale" id="radioBtn34" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -123,6 +128,7 @@
         <span>
           <label><input type="radio" name="cigarette" id="radioBtn15" class="searchRadio" value="all" disabled>全て</label>
           <label><input type="radio" name="cigarette" id="radioBtn25" class="searchRadio" value="electronic" disabled>電子タバコのみ</label>
+          <label><input type="radio" name="cigarette" id="radioBtn35" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
@@ -132,6 +138,7 @@
         <span>
           <label><input type="radio" name="outdoor" id="radioBtn16" class="searchRadio" value="outdoor" disabled>屋外</label>
           <label><input type="radio" name="outdoor" id="radioBtn26" class="searchRadio" value="indoor" disabled>屋内</label>
+          <label><input type="radio" name="outdoor" id="radioBtn36" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
       <div class="searchRow">
