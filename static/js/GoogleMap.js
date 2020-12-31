@@ -21,5 +21,9 @@ window.onload = function () {
     // ev.latLng.lng();  経度
     console.log('lat' + ev.latLng.lat());
     console.log('lng' + ev.latLng.lng());
+
+    // マーカーの緯度経度の値を表示
+    document.getElementById('latArea').value = ev.latLng.lat();
+    document.getElementById('lngArea').value = ev.latLng.lng();
   })
 };

@@ -4,6 +4,18 @@
 <div class="searchArea">
     <form action="addData.php" method="post">
       <div class="searchRow">
+        <p>喫煙所の名前</p>
+        <input type="text" name="placeName">
+      </div>
+      <div class="searchRow">
+        <p>緯度</p>
+        <input type="text" name="lat" id="latArea" readonly>
+      </div>
+      <div class="searchRow">
+        <p>経度</p>
+        <input type="text" name="lng" id="lngArea" readonly>
+      </div>
+      <div class="searchRow">
         <span>
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">屋根</label>
         </span>
@@ -65,6 +77,10 @@
           <label><input type="radio" name="indoors" id="radioBtn16" class="searchRadio" value="outdoor" disabled>屋外</label>
           <label><input type="radio" name="indoors" id="radioBtn26" class="searchRadio" value="indoor" disabled>屋内</label>
         </span>
+      </div>
+      <div class="searchRow">
+        <p>補足コメント</p>
+        <textarea name="message"></textarea>
       </div>
       <button class="pageMoveBtn" type="submit">新規登録する</button>
     </form>
