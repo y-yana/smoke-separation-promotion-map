@@ -1,5 +1,10 @@
 <?php
-  echo 'INSERT INTO smokingMap(
+
+  // DB接続
+  require('env.php');
+
+  // sql文を格納
+  $sql='INSERT INTO smokingMap(
     placeName,
     lat,
     lng,
@@ -28,5 +33,15 @@
     "'.$_POST['cigarette'].'",
     "'.$_POST['outdoor'].'",
     "'.$_POST['message'].'"
-  )'
+  )';
+
+  // sql文を実行
+  $results=$mysqli->query($sql);
+
+  // DB接続を終了
+  $mysqli->close();
+
+  // ページ遷移
+  header("location: result.php");
+
 ?>
