@@ -36,8 +36,8 @@
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">タバコの自販機</label>
         </span>
         <span>
-          <label><input type="radio" name="cigaretteVendingMachine" id="radioBtn13" class="searchRadio" value="Y" disabled>あり</label>
-          <label><input type="radio" name="cigaretteVendingMachine" id="radioBtn23" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="cigaretteSale" id="radioBtn13" class="searchRadio" value="Y" disabled>あり</label>
+          <label><input type="radio" name="cigaretteSale" id="radioBtn23" class="searchRadio" value="N" disabled>なし</label>
         </span>
       </div>
       <div class="searchRow">
@@ -45,8 +45,8 @@
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">飲料の自販機</label>
         </span>
         <span>
-          <label><input type="radio" name="vendingMachine" id="radioBtn14" class="searchRadio" value="Y" disabled>あり</label>
-          <label><input type="radio" name="vendingMachine" id="radioBtn24" class="searchRadio" value="N" disabled>なし</label>
+          <label><input type="radio" name="drinkSale" id="radioBtn14" class="searchRadio" value="Y" disabled>あり</label>
+          <label><input type="radio" name="drinkSale" id="radioBtn24" class="searchRadio" value="N" disabled>なし</label>
         </span>
       </div>
       <div class="searchRow">
@@ -54,8 +54,8 @@
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">利用できるタバコ</label>
         </span>
         <span>
-          <label><input type="radio" name="electronicCigarette" id="radioBtn15" class="searchRadio" value="all" disabled>全て</label>
-          <label><input type="radio" name="electronicCigarette" id="radioBtn25" class="searchRadio" value="electronic" disabled>電子タバコのみ</label>
+          <label><input type="radio" name="cigarette" id="radioBtn15" class="searchRadio" value="all" disabled>全て</label>
+          <label><input type="radio" name="cigarette" id="radioBtn25" class="searchRadio" value="electronic" disabled>電子タバコのみ</label>
         </span>
       </div>
       <div class="searchRow">
@@ -63,8 +63,8 @@
           <label><input type="checkbox" name="checkBox" onChange="formCheck()">設置場所</label>
         </span>
         <span>
-          <label><input type="radio" name="indoors" id="radioBtn16" class="searchRadio" value="outdoor" disabled>屋外</label>
-          <label><input type="radio" name="indoors" id="radioBtn26" class="searchRadio" value="indoor" disabled>屋内</label>
+          <label><input type="radio" name="outdoor" id="radioBtn16" class="searchRadio" value="outdoor" disabled>屋外</label>
+          <label><input type="radio" name="outdoor" id="radioBtn26" class="searchRadio" value="indoor" disabled>屋内</label>
         </span>
       </div>
       <button class="pageMoveBtn" type="submit">検索</button>
