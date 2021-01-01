@@ -42,6 +42,6 @@
   $mysqli->close();
 
   // ページ遷移
-  header("location: result.php");
+  header("location: index.php");
 
 ?>
