@@ -3,7 +3,7 @@
 
   <div class="searchArea">
     <button class="pageMoveBtn" onclick="location.href='./review.php'">喫煙所の登録はこちら</button>
-    <form action="search.php" method="post">
+    <form action="result.php" method="post">
       <div class="searchRow">
         <p>喫煙所の名前</p>
         <input type="text" name="placeName">
