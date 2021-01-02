@@ -9,12 +9,10 @@
     session_start();
 
     $sql = $_SESSION['postForm'];
-    echo $sql;
-    
-    // sql文を実行
-    //$results=$mysqli->query($sql);
 
-    /*
+    // sql文を実行
+    $results=$mysqli->query($sql);
+
     foreach ($results as $row){
       echo '<p>'.$row['placeName'].'</p>
       <p>'.$row['lat'].'</p>
@@ -28,7 +26,6 @@
       <p>'.$row['outdoor'].'</p>
       <p>'.$row['message'];
   }
-  */
 
   ?>
 
