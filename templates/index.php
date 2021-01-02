@@ -85,6 +85,5 @@
 
 <script src="../static/js/GoogleMap.js"></script>
 <script src="../static/js/formCheck.js"></script>
-<script src="../static/js/search.js"></script>
 
 <?php include('./footer.php'); ?>
