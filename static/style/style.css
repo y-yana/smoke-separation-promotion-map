@@ -459,19 +459,19 @@ header span #tagline i {
   margin: 1.5rem auto;
 }
 
-.displayMap .searchArea form {
+.displayMap .searchArea .formArea {
   padding: 0 2rem;
 }
 
-.displayMap .searchArea form .searchRow {
+.displayMap .searchArea .formArea .searchRow {
   margin: 2rem 0;
 }
 
-.displayMap .searchArea form .searchRow span label input {
+.displayMap .searchArea .formArea .searchRow span label input {
   margin-right: 0.5rem;
 }
 
-.displayMap .searchArea form .searchRow span label .searchRadio {
+.displayMap .searchArea .formArea .searchRow span label .searchRadio {
   margin: 0 0.3rem 0 1rem;
 }
 
@@ -526,19 +526,19 @@ footer .footerClass a {
   .displayMap .searchArea .pageMoveBtn {
     margin: 2rem auto;
   }
-  .displayMap .searchArea form {
+  .displayMap .searchArea .formArea {
     padding: 0;
   }
-  .displayMap .searchArea form .searchRow {
+  .displayMap .searchArea .formArea .searchRow {
     margin: 1rem 0;
   }
-  .displayMap .searchArea form .searchRow span label {
+  .displayMap .searchArea .formArea .searchRow span label {
     cursor: pointer;
   }
-  .displayMap .searchArea form .searchRow span label input {
+  .displayMap .searchArea .formArea .searchRow span label input {
     margin-right: 0.5rem;
   }
-  .displayMap .searchArea form .searchRow span label .searchRadio {
+  .displayMap .searchArea .formArea .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
   }
   footer {
