@@ -3,7 +3,7 @@
 
   <div class="searchArea">
     <button class="pageMoveBtn" onclick="location.href='./review.php'">喫煙所の登録はこちら</button>
-    <form  name="formSearch">
+    <form action="searchTest.php" method="post" name="formSearch" class="formArea">
       <div class="searchRow">
         <p>喫煙所の名前</p>
         <input type="text" name="placeName">
@@ -78,7 +78,7 @@
           <label><input type="radio" name="outdoor" id="radioBtn36" class="searchRadio" value="unknown" checked="checked" style="display:none;"></label>
         </span>
       </div>
-      <button class="pageMoveBtn" type="button" onClick="search()">検索</button>
+      <button class="pageMoveBtn">検索</button>
     </form>
   </div>
 </div>
