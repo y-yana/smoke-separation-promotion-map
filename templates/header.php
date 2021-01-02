@@ -4,6 +4,7 @@
     <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../static/style/style.css">
+    <link rel="shortcut icon" href="../static/image/favicon.ico" type="image/x-icon"/>
     <title><?php echo $title ?></title>
   </head>
   <body>
