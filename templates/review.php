@@ -2,7 +2,7 @@
 <?php include('./header.php'); ?>
 
 <div class="searchArea">
-    <form action="addData.php" method="post" name="addData">
+    <form action="addData.php" method="post" name="addData" class="formArea">
       <div class="searchRow">
         <p>喫煙所の名前</p>
         <input type="text" name="placeName">
