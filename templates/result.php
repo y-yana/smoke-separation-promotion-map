@@ -5,20 +5,16 @@
     // DB接続
     require('env.php');
 
-    // sql文を格納
-    $sql='SELECT * FROM smokingMap WHERE
-    placeName LIKE "%'.$_POST['placeName'].'%" AND
-    roof='.$_POST['roof'].' AND
-    bench='.$_POST['bench'].' AND
-    enclosure='.$_POST['enclosure'].' AND
-    cigaretteSale='.$_POST['cigaretteSale'].' AND
-    drinkSale='.$_POST['drinkSale'].' AND
-    cigarette='.$_POST['cigarette'].' AND
-    outdoor='.$_POST['outdoor'];
+    // セッション開始
+    session_start();
 
+    $sql = $_SESSION['postForm'];
+    echo $sql;
+    
     // sql文を実行
-    $results=$mysqli->query($sql);
+    //$results=$mysqli->query($sql);
 
+    /*
     foreach ($results as $row){
       echo '<p>'.$row['placeName'].'</p>
       <p>'.$row['lat'].'</p>
@@ -32,6 +28,7 @@
       <p>'.$row['outdoor'].'</p>
       <p>'.$row['message'];
   }
+  */
 
   ?>
 
