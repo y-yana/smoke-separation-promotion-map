@@ -14,17 +14,46 @@
     $results=$mysqli->query($sql);
 
     foreach ($results as $row){
-      echo '<p>'.$row['placeName'].'</p>
-      <p>'.$row['lat'].'</p>
-      <p>'.$row['lng'].'</p>
-      <p>'.$row['roof'].'</p>
-      <p>'.$row['bench'].'</p>
-      <p>'.$row['enclosure'].'</p>
-      <p>'.$row['cigaretteSale'].'</p>
-      <p>'.$row['drinkSale'].'</p>
-      <p>'.$row['cigarette'].'</p>
-      <p>'.$row['outdoor'].'</p>
-      <p>'.$row['message'];
+      echo '
+      <table>
+        <tr>
+          <td colspan="2">'.$row['placeName'].'</td>
+        </tr>
+        <tr>
+          <td colspan="2">'.$row['startTime'].'～'.$row['endTime'].'</td>
+        </tr>
+        <tr>
+          <td>屋根：</td>
+          <td>'.$row['roof'].'</td>
+        </tr>
+        <tr>
+          <td>ベンチ：</td>
+          <td>'.$row['bench'].'</td>
+        </tr>
+        <tr>
+          <td>囲い：</td>
+          <td>'.$row['enclosure'].'</td>
+        </tr>
+        <tr>
+          <td>タバコの自販機：</td>
+          <td>'.$row['cigaretteSale'].'</td>
+        </tr>
+        <tr>
+          <td>飲料の自販機：</td>
+          <td>'.$row['drinkSale'].'</td>
+        </tr>
+        <tr>
+          <td>利用できるタバコ：</td>
+          <td>'.$row['cigarette'].'</td>
+        </tr>
+        <tr>
+          <td>設置場所：</td>
+          <td>'.$row['outdoor'].'</td>
+        </tr>
+        <tr>
+          <td colspan="2">'.$row['message'].'</td>
+        </tr>
+      </table>';
   }
 
   ?>
