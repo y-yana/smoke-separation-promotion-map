@@ -11,13 +11,13 @@
     lng DOUBLE(9,6),
     startTime VARCHAR(4),
     endTime VARCHAR(4),
-    roof ENUM("Y","N","unknown"),
-    bench ENUM("Y","N","unknown"),
-    enclosure ENUM("Y","N","unknown"),
-    cigaretteSale ENUM("Y","N","unknown"),
-    drinkSale ENUM("Y","N","unknown"),
-    cigarette ENUM("all","electronic","unknown"),
-    outdoor ENUM("outdoor","indoor","unknown"),
+    roof ENUM("あり","なし","不明"),
+    bench ENUM("あり","なし","不明"),
+    enclosure ENUM("あり","なし","不明"),
+    cigaretteSale ENUM("あり","なし","不明"),
+    drinkSale ENUM("あり","なし","不明"),
+    cigarette ENUM("全て","電子タバコのみ","不明"),
+    outdoor ENUM("屋外","屋内","不明"),
     message VARCHAR(500)
   )';
 
