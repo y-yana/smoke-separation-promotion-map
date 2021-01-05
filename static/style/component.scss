@@ -3,6 +3,8 @@ $header-color: #eaf3ff;
 $btn-color: #516ab6;
 $btn-hover: #6985d8;
 $bg-color: #ffffff;
+$box-shadow: #e9e9e9;
+$border-shadow: #eeeeee;
 
 /* 全体の共通部分 */
 header {
@@ -58,8 +60,8 @@ header {
     display: flex;
     flex-direction: column;
     .tableMargin {
-      border: 1px solid #eeeeee;
-      box-shadow: 5px 5px 5px #e9e9e9;
+      border: 1px solid $border-shadow;
+      box-shadow: 5px 5px 5px $box-shadow;
       table {
         tr {
           &:nth-child(1) {
@@ -87,4 +89,42 @@ footer {
       }
     }
   }
+}
+
+/* モーダル部分 */
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    p{
+      line-height: 1.8rem;
+      b{
+        display: block;
+      }
+      .bold{
+        display: contents;
+        margin: 0;
+      }
+    }
+    a{
+      display: block;
+      margin-top: 1.5rem;
+    }
 }
