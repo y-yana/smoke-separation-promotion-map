@@ -1,4 +1,6 @@
-    <script src="../static/js/modal.js"></script>
+<script src="../static/js/GoogleMap.js"></script>
+<script src="../static/js/formCheck.js"></script>
+<script src="../static/js/modal.js"></script>
 
     <footer>
       <span class="footerClass">

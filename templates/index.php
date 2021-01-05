@@ -83,7 +83,4 @@
   </div>
 </div>
 
-<script src="../static/js/GoogleMap.js"></script>
-<script src="../static/js/formCheck.js"></script>
-
 <?php include('./footer.php'); ?>
