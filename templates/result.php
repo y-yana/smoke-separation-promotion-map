@@ -20,7 +20,8 @@
           <td colspan="2">'.$row['placeName'].'</td>
         </tr>
         <tr>
-          <td colspan="2">'.$row['startTime'].'～'.$row['endTime'].'</td>
+          <td>利用可能時間</td>
+          <td>'.$row['startTime'].'～'.$row['endTime'].'</td>
         </tr>
         <tr>
           <td>屋根：</td>
