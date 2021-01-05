@@ -391,12 +391,11 @@ header span #tagline i {
 }
 
 .displayMap .tableArea {
+  overflow-x: hidden;
+  overflow-y: scroll;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,7 +509,7 @@ header span #tagline i {
 }
 
 .tableArea .tableMargin table {
-  margin: 1rem 2rem;
+  margin: 0.5rem 1.5rem;
 }
 
 .tableArea .tableMargin table td {
@@ -587,7 +586,7 @@ footer .footerClass a {
     margin: 1rem auto;
   }
   .tableArea .tableMargin {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.5rem 0.5rem 0;
   }
   .tableArea .tableMargin table {
     margin: 1rem 2rem;
