@@ -501,6 +501,22 @@ header span #tagline i {
   margin: 0 0.3rem 0 1rem;
 }
 
+.tableArea {
+  margin: 1rem auto;
+}
+
+.tableArea .tableMargin {
+  margin: 0.5rem 0;
+}
+
+.tableArea .tableMargin table {
+  margin: 1rem 2rem;
+}
+
+.tableArea .tableMargin table td {
+  padding: 0.25rem 0;
+}
+
 footer {
   padding: 1rem 0 1.5rem;
 }
