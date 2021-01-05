@@ -567,6 +567,18 @@ footer .footerClass a {
   .displayMap .searchArea .formArea .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
   }
+  .tableArea {
+    margin: 1rem auto;
+  }
+  .tableArea .tableMargin {
+    margin: 0.5rem 0;
+  }
+  .tableArea .tableMargin table {
+    margin: 1rem 2rem;
+  }
+  .tableArea .tableMargin table td {
+    padding: 0.25rem 0;
+  }
   footer {
     padding: 2rem 0;
   }
@@ -580,17 +592,5 @@ footer .footerClass a {
   footer .footerClass a {
     font-size: 1rem;
     margin: 0 0.5rem;
-  }
-  .tableArea {
-    margin: 1rem auto;
-  }
-  .tableArea .tableMargin {
-    margin: 0.5rem 0;
-  }
-  .tableArea .tableMargin table {
-    margin: 1rem 2rem;
-  }
-  .tableArea .tableMargin table td {
-    padding: 0.25rem 0;
   }
 }
