@@ -1,69 +1,80 @@
 /* PC版デザイン */
 @media screen and (min-width: 1100px) {
-
-header{
-  span{
-    h1{
-      font-size: 2.3rem;
-      margin: 2.3rem 5rem 2.3rem 0;
-    }
-    #tagline{
-      p{
-      font-size: 1.5rem;
-      margin-right: 0.3rem;
+  header {
+    span {
+      h1 {
+        font-size: 2.3rem;
+        margin: 2.3rem 5rem 2.3rem 0;
       }
-      i{
-        transform: scale(1);
+      #tagline {
+        p {
+          font-size: 1.5rem;
+          margin-right: 0.3rem;
+        }
+        i {
+          transform: scale(1);
+        }
       }
     }
   }
-}
 
-.displayMap{
-  height: 750px;
-  flex-direction: row;
-  #myMap{
-    width: 70%;
-    height: 100%;
-  }
-  .searchArea{
-    width: 30%;
-    height: 100%;
-    margin: 0;
-    font-size: 1rem;
-    .pageMoveBtn{
-      margin: 2rem auto;
+  .displayMap {
+    height: 750px;
+    flex-direction: row;
+    #myMap {
+      width: 70%;
+      height: 100%;
     }
-    .formArea{
-      padding: 0;
-      .searchRow{
-        margin: 1rem 0;
-        span{
-          label{
-            cursor: pointer;
-            input{
-              margin-right: 0.5rem;
-            }
-            .searchRadio{
-              margin: 0 0.3rem 0 0.6rem;
+    .searchArea {
+      width: 30%;
+      height: 100%;
+      margin: 0;
+      font-size: 1rem;
+      .pageMoveBtn {
+        margin: 2rem auto;
+      }
+      .formArea {
+        padding: 0;
+        .searchRow {
+          margin: 1rem 0;
+          span {
+            label {
+              cursor: pointer;
+              input {
+                margin-right: 0.5rem;
+              }
+              .searchRadio {
+                margin: 0 0.3rem 0 0.6rem;
+              }
             }
           }
         }
       }
     }
   }
-}
 
-footer{
-  padding: 2rem 0;
-  .footerClass{
-    flex-direction: row;
-    margin: 0 auto;
-    a{
-      font-size: 1rem;
-      margin: 0 0.5rem;
+  footer {
+    padding: 2rem 0;
+    .footerClass {
+      flex-direction: row;
+      margin: 0 auto;
+      a {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+      }
     }
   }
-}
 
+  .tableArea {
+    margin: 1rem auto;
+    .tableMargin {
+      margin: 0.5rem 0;
+      table {
+        margin: 1rem 2rem;
+        td {
+          padding: 0.25rem 0;
+        }
+      }
+    }
+  }
 }

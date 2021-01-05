@@ -13,49 +13,55 @@
     // sql文を実行
     $results=$mysqli->query($sql);
 
+    echo '<div class="tableArea">';
+
     foreach ($results as $row){
       echo '
+      <span class="tableMargin">
       <table>
         <tr>
-          <td colspan="2">'.$row['placeName'].'</td>
+          <td colspan="2" align="center">'.$row['placeName'].'</td>
         </tr>
         <tr>
-          <td>利用可能時間</td>
-          <td>'.$row['startTime'].'～'.$row['endTime'].'</td>
+          <td align="right">利用可能時間：</td>
+          <td align="left">'.$row['startTime'].'～'.$row['endTime'].'</td>
         </tr>
         <tr>
-          <td>屋根：</td>
-          <td>'.$row['roof'].'</td>
+          <td align="right">屋根：</td>
+          <td align="left">'.$row['roof'].'</td>
         </tr>
         <tr>
-          <td>ベンチ：</td>
-          <td>'.$row['bench'].'</td>
+          <td align="right">ベンチ：</td>
+          <td align="left">'.$row['bench'].'</td>
         </tr>
         <tr>
-          <td>囲い：</td>
-          <td>'.$row['enclosure'].'</td>
+          <td align="right">囲い：</td>
+          <td align="left">'.$row['enclosure'].'</td>
         </tr>
         <tr>
-          <td>タバコの自販機：</td>
-          <td>'.$row['cigaretteSale'].'</td>
+          <td align="right">タバコの自販機：</td>
+          <td align="left">'.$row['cigaretteSale'].'</td>
         </tr>
         <tr>
-          <td>飲料の自販機：</td>
-          <td>'.$row['drinkSale'].'</td>
+          <td align="right">飲料の自販機：</td>
+          <td align="left">'.$row['drinkSale'].'</td>
         </tr>
         <tr>
-          <td>利用できるタバコ：</td>
-          <td>'.$row['cigarette'].'</td>
+          <td align="right">利用できるタバコ：</td>
+          <td align="left">'.$row['cigarette'].'</td>
         </tr>
         <tr>
-          <td>設置場所：</td>
-          <td>'.$row['outdoor'].'</td>
+          <td align="right">設置場所：</td>
+          <td align="left">'.$row['outdoor'].'</td>
         </tr>
         <tr>
-          <td colspan="2">'.$row['message'].'</td>
+          <td colspan="2"  align="center">'.$row['message'].'</td>
         </tr>
-      </table>';
+      </table>
+      </span>';
   }
+
+  echo '</div>';
 
   ?>
 
