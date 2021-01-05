@@ -390,6 +390,31 @@ header span #tagline i {
   background: #6985d8;
 }
 
+.displayMap .tableArea {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.displayMap .tableArea .tableMargin {
+  border: 1px solid #eeeeee;
+  -webkit-box-shadow: 5px 5px 5px #e9e9e9;
+          box-shadow: 5px 5px 5px #e9e9e9;
+}
+
+.displayMap .tableArea .tableMargin table tr:nth-child(1) {
+  font-weight: bold;
+}
+
 footer {
   width: 100%;
   background: #eaf3ff;
@@ -475,6 +500,22 @@ header span #tagline i {
   margin: 0 0.3rem 0 1rem;
 }
 
+.tableArea {
+  margin: 1rem auto;
+}
+
+.tableArea .tableMargin {
+  margin: 0.5rem 0;
+}
+
+.tableArea .tableMargin table {
+  margin: 0.5rem 1.5rem;
+}
+
+.tableArea .tableMargin table td {
+  padding: 0.25rem 0;
+}
+
 footer {
   padding: 1rem 0 1.5rem;
 }
@@ -540,6 +581,18 @@ footer .footerClass a {
   }
   .displayMap .searchArea .formArea .searchRow span label .searchRadio {
     margin: 0 0.3rem 0 0.6rem;
+  }
+  .tableArea {
+    margin: 1rem auto;
+  }
+  .tableArea .tableMargin {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+  .tableArea .tableMargin table {
+    margin: 1rem 2rem;
+  }
+  .tableArea .tableMargin table td {
+    padding: 0.25rem 0;
   }
   footer {
     padding: 2rem 0;
