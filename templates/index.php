@@ -1,4 +1,9 @@
-<?php $title = 'TopPage'; ?>
+<?php
+  $title = 'TopPage';
+  $url = 'index.php';
+  $type = 'website';
+?>
+
 <?php include('./header.php'); ?>
 
   <div class="searchArea">

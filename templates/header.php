@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+  <head prefix=”og:http://ogp.me/ns#”>
     <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:url" content="https://buturi.heteml.net/webPractice/2020/bunnen/templates/<?php echo $url ?>" />
+    <meta property="og:type" content="<?php echo $type ?>" />
+    <meta property="og:title" content="分煙促進マップ <?php echo $title ?>" />
+    <meta property="og:description" content="最寄りの喫煙所を手軽に検索することができるWebアプリケーションです。" />
+    <meta property="og:site_name" content="分煙促進マップ" />
+    <meta property="og:image" content="https://buturi.heteml.net/webPractice/2020/bunnen/static/image/OGP.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../static/style/style.css">
     <link rel="shortcut icon" href="../static/image/favicon.ico" type="image/x-icon"/>

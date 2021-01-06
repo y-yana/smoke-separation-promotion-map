@@ -1,4 +1,9 @@
-<?php $title = 'ReviewPage'; ?>
+<?php
+  $title = 'ReviewPage';
+  $url = 'review.php';
+  $type = 'article';
+?>
+
 <?php include('./header.php'); ?>
 
 <div class="searchArea">
