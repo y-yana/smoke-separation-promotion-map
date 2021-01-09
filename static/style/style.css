@@ -312,7 +312,7 @@ template {
 /* 変数宣言 */
 /* 全体の共通部分 */
 header {
-  background: #eaf3ff;
+  background: #c8eee6;
 }
 
 header span {
@@ -417,7 +417,7 @@ header span #tagline i {
 
 footer {
   width: 100%;
-  background: #eaf3ff;
+  background: #c8eee6;
 }
 
 footer .footerClass {

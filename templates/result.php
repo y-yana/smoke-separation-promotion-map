@@ -1,4 +1,9 @@
-<?php $title = 'ResultPage'; ?>
+<?php
+  $title = 'ResultPage';
+  $url = 'result.php';
+  $type = 'article';
+?>
+
 <?php include('./header.php'); ?>
 
   <?php
