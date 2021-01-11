@@ -18,7 +18,7 @@
     // sql文を実行
     $results=$mysqli->query($sql);
 
-    echo '<div class="tableArea">';
+    echo '<div class="searchArea"><button class="pageMoveBtn" onclick="location.href='."'./index.php'".'">検索画面に戻る</button><div class="tableArea">';
 
     foreach ($results as $row){
       echo '
@@ -66,7 +66,7 @@
       </span>';
   }
 
-  echo '</div>';
+  echo '</div></div>';
 
   ?>
 
