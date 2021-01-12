@@ -17,13 +17,8 @@ window.onload = function () {
   marker.setMap(myMap);
 
   google.maps.event.addListener(marker, 'dragend', function (ev) {
-    // ev.latLng.lat();  緯度
-    // ev.latLng.lng();  経度
-    console.log('lat' + ev.latLng.lat());
-    console.log('lng' + ev.latLng.lng());
-
     // マーカーの緯度経度の値を表示
-    document.getElementById('latArea').value = ev.latLng.lat();
-    document.getElementById('lngArea').value = ev.latLng.lng();
+    document.getElementById('latArea').value = ev.latLng.lat(); // ev.latLng.lat();  緯度
+    document.getElementById('lngArea').value = ev.latLng.lng(); // ev.latLng.lng();  経度
   })
 };
