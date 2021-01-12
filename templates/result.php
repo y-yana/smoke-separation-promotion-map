@@ -22,7 +22,7 @@
 
     foreach ($results as $row){
       echo '
-      <span class="tableMargin">
+      <span class="tableMargin" id="mapPin'.$row['ID'].'" data-lat="'.$row['lat'].'" data-lng="'.$row['lng'].'" onclick="stingMapPin('.$row['ID'].')">
       <table>
         <tr>
           <td colspan="2" align="center">'.$row['placeName'].'</td>
@@ -71,5 +71,7 @@
   ?>
 
 </div>
+
+<script src="../static/js/stingMapPin.js"></script>
 
 <?php include('./footer.php'); ?>
