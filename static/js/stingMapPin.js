@@ -9,7 +9,7 @@ function stingMapPin(id) {
   // map表示
   var myMap = new google.maps.Map(document.getElementById('myMap'), {
     center: result,
-    zoom: 17,
+    zoom: 19,
     mapTypeId: 'hybrid',
     scrollwheel: false
   });
