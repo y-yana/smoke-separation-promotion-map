@@ -665,6 +665,12 @@ footer .footerClass a {
   }
   .tableArea .tableMargin {
     margin: 0.5rem 0.5rem 0.5rem 0;
+    cursor: pointer;
+  }
+  .tableArea .tableMargin:hover {
+    border: 1px solid #dfdfdf;
+    -webkit-box-shadow: 5px 5px 5px #b1b1b1;
+            box-shadow: 5px 5px 5px #b1b1b1;
   }
   .tableArea .tableMargin table {
     margin: 1rem 2rem;
