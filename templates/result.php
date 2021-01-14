@@ -25,42 +25,42 @@
       <span class="tableMargin" id="mapPin'.$row['ID'].'" data-lat="'.$row['lat'].'" data-lng="'.$row['lng'].'" onclick="stingMapPin('.$row['ID'].')">
       <table>
         <tr>
-          <td colspan="2" align="center">'.$row['placeName'].'</td>
+          <td colspan="2" align="center">'.htmlspecialchars($row['placeName']).'</td>
         </tr>
         <tr>
           <td align="right">利用可能時間：</td>
-          <td align="left">'.$row['startTime'].'～'.$row['endTime'].'</td>
+          <td align="left">'.htmlspecialchars($row['startTime']).'～'.htmlspecialchars($row['endTime']).'</td>
         </tr>
         <tr>
           <td align="right">屋根：</td>
-          <td align="left">'.$row['roof'].'</td>
+          <td align="left">'.htmlspecialchars($row['roof']).'</td>
         </tr>
         <tr>
           <td align="right">ベンチ：</td>
-          <td align="left">'.$row['bench'].'</td>
+          <td align="left">'.htmlspecialchars($row['bench']).'</td>
         </tr>
         <tr>
           <td align="right">囲い：</td>
-          <td align="left">'.$row['enclosure'].'</td>
+          <td align="left">'.htmlspecialchars($row['enclosure']).'</td>
         </tr>
         <tr>
           <td align="right">タバコの自販機：</td>
-          <td align="left">'.$row['cigaretteSale'].'</td>
+          <td align="left">'.htmlspecialchars($row['cigaretteSale']).'</td>
         </tr>
         <tr>
           <td align="right">飲料の自販機：</td>
-          <td align="left">'.$row['drinkSale'].'</td>
+          <td align="left">'.htmlspecialchars($row['drinkSale']).'</td>
         </tr>
         <tr>
           <td align="right">利用できるタバコ：</td>
-          <td align="left">'.$row['cigarette'].'</td>
+          <td align="left">'.htmlspecialchars($row['cigarette']).'</td>
         </tr>
         <tr>
           <td align="right">設置場所：</td>
-          <td align="left">'.$row['outdoor'].'</td>
+          <td align="left">'.htmlspecialchars($row['outdoor']).'</td>
         </tr>
         <tr>
-          <td colspan="2"  align="center">'.$row['message'].'</td>
+          <td colspan="2"  align="center">'.htmlspecialchars($row['message']).'</td>
         </tr>
       </table>
       </span>';
