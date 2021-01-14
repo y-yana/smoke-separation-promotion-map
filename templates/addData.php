@@ -3,6 +3,13 @@
   // DB接続
   require('env.php');
 
+  if($_POST['startTime'] == ""){
+    $_POST['startTime'] = "--:-- ";
+  }
+  if($_POST['endTime'] == ""){
+    $_POST['endTime'] = " --:--";
+  }
+
   // sql文を格納
   $sql='INSERT INTO smokingMap(
     placeName,
