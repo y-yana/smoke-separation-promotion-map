@@ -20,20 +20,22 @@ header{
 }
 
 .displayMap{
-  height: 1000px;
   flex-direction: column;
   #myMap{
     width: auto;
     height: 530px;
   }
   .searchArea{
-    margin: 0;
+    margin: 0 auto;
     font-size: 1rem;
     .pageMoveBtn{
       margin: 1.5rem auto;
     }
     .formArea{
       padding: 0 2rem;
+      .message{
+        width: 16.5rem;
+      }
       .searchRow{
         margin: 2rem 0;
         span{
@@ -52,6 +54,7 @@ header{
 }
 
 .tableArea {
+  height: 70%;
   margin: 1rem auto;
   .tableMargin {
     margin: 0.5rem 0;

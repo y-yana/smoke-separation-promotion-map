@@ -10,21 +10,21 @@
     <form action="addData.php" method="post" name="addData" class="formArea">
       <div class="searchRow">
         <p>喫煙所の名前</p>
-        <input type="text" name="placeName">
+        <input type="text" name="placeName" class="flame">
       </div>
       <div class="searchRow">
         <p>緯度</p>
-        <input type="text" name="lat" id="latArea" readonly>
+        <input type="text" name="lat" class="flame" id="latArea" readonly>
       </div>
       <div class="searchRow">
         <p>経度</p>
-        <input type="text" name="lng" id="lngArea" readonly>
+        <input type="text" name="lng" class="flame" id="lngArea" readonly>
       </div>
       <div class="searchRow">
         <p>利用可能時間</p>
-        <input type="time" name="startTime">
+        <input type="time" name="startTime" class="flame">
         <span>～</span>
-        <input type="time" name="endTime">
+        <input type="time" name="endTime" class="flame">
       </div>
       <div class="searchRow">
         <span>
@@ -98,7 +98,7 @@
       </div>
       <div class="searchRow">
         <p>補足コメント</p>
-        <textarea name="message"></textarea>
+        <textarea name="message" class="flame message"></textarea>
       </div>
       <button class="pageMoveBtn" type="submit">新規登録する</button>
     </form>

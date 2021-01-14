@@ -374,6 +374,17 @@ header span #tagline i {
   margin: 0 auto;
 }
 
+.displayMap .searchArea form .flame {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.displayMap .searchArea form .message {
+  height: 5rem;
+}
+
 .displayMap .searchArea .pageMoveBtn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -508,7 +519,6 @@ header span #tagline i {
 }
 
 .displayMap {
-  height: 1000px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -521,7 +531,7 @@ header span #tagline i {
 }
 
 .displayMap .searchArea {
-  margin: 0;
+  margin: 0 auto;
   font-size: 1rem;
 }
 
@@ -531,6 +541,10 @@ header span #tagline i {
 
 .displayMap .searchArea .formArea {
   padding: 0 2rem;
+}
+
+.displayMap .searchArea .formArea .message {
+  width: 16.5rem;
 }
 
 .displayMap .searchArea .formArea .searchRow {
@@ -546,6 +560,7 @@ header span #tagline i {
 }
 
 .tableArea {
+  height: 70%;
   margin: 1rem auto;
 }
 
@@ -629,6 +644,9 @@ footer .footerClass a {
   .displayMap .searchArea .formArea {
     padding: 0;
   }
+  .displayMap .searchArea .formArea .message {
+    width: 20rem;
+  }
   .displayMap .searchArea .formArea .searchRow {
     margin: 1rem 0;
   }
@@ -642,10 +660,17 @@ footer .footerClass a {
     margin: 0 0.3rem 0 0.6rem;
   }
   .tableArea {
+    height: 85%;
     margin: 1rem auto;
   }
   .tableArea .tableMargin {
     margin: 0.5rem 0.5rem 0.5rem 0;
+    cursor: pointer;
+  }
+  .tableArea .tableMargin:hover {
+    border: 1px solid #dfdfdf;
+    -webkit-box-shadow: 5px 5px 5px #b1b1b1;
+            box-shadow: 5px 5px 5px #b1b1b1;
   }
   .tableArea .tableMargin table {
     margin: 1rem 2rem;

@@ -11,7 +11,7 @@
     <form action="search.php" method="post" name="formSearch" class="formArea">
       <div class="searchRow">
         <p>喫煙所の名前</p>
-        <input type="text" name="placeName">
+        <input type="text" name="placeName" class="flame">
       </div>
       <div class="searchRow">
         <span>

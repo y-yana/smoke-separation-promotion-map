@@ -18,11 +18,11 @@
     // sql文を実行
     $results=$mysqli->query($sql);
 
-    echo '<div class="tableArea">';
+    echo '<div class="searchArea"><button class="pageMoveBtn" onclick="location.href='."'./index.php'".'">検索画面に戻る</button><div class="tableArea">';
 
     foreach ($results as $row){
       echo '
-      <span class="tableMargin">
+      <span class="tableMargin" id="mapPin'.$row['ID'].'" data-lat="'.$row['lat'].'" data-lng="'.$row['lng'].'" onclick="stingMapPin('.$row['ID'].')">
       <table>
         <tr>
           <td colspan="2" align="center">'.$row['placeName'].'</td>
@@ -66,10 +66,12 @@
       </span>';
   }
 
-  echo '</div>';
+  echo '</div></div>';
 
   ?>
 
 </div>
+
+<script src="../static/js/stingMapPin.js"></script>
 
 <?php include('./footer.php'); ?>

@@ -36,6 +36,9 @@
       }
       .formArea {
         padding: 0;
+        .message{
+          width: 20rem;
+        }
         .searchRow {
           margin: 1rem 0;
           span {
@@ -55,9 +58,15 @@
   }
 
   .tableArea {
+    height: 85%;
     margin: 1rem auto;
     .tableMargin {
       margin: 0.5rem 0.5rem 0.5rem 0;
+      cursor: pointer;
+      &:hover{
+        border: 1px solid #dfdfdf;
+        box-shadow: 5px 5px 5px #b1b1b1;
+      }
       table {
         margin: 1rem 2rem;
         td {

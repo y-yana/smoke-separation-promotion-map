@@ -39,6 +39,15 @@ header {
     form {
       width: fit-content;
       margin: 0 auto;
+      .flame{
+        border: 1px solid #999999;
+        border-radius: 3px;
+        margin-top: 0.5rem;
+        padding: 0.3rem 0.5rem;
+      }
+      .message{
+        height: 5rem;
+      }
     }
     .pageMoveBtn {
       width: fit-content;
