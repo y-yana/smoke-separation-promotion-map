@@ -1,3 +1,5 @@
+<?php header('X-FRAME-OPTIONS: SAMEORIGIN'); ?>
+
 <!DOCTYPE html>
 <html lang="ja">
   <head prefix=”og:http://ogp.me/ns#”>
