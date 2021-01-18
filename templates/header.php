@@ -22,6 +22,9 @@
   <?php
   // DB接続
   require('./env.php');
+
+  // Google Maps APIキー
+  require('./envAPI.php');
   ?>
 
   <header>
